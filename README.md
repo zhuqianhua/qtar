@@ -17,8 +17,8 @@ and bubble size.
 ## Options
 Options | Descriptions
 --- | ---
--s, --smrna | *<s> small rna sequence in fasta format
--t, --target | *<s>  target sequence in fasta format
+-s, --smrna | \*<s> small rna sequence in fasta format
+-t, --target | \*<s>  target sequence in fasta format
 -o, --output | <s>  output, default ./qtar_output.xls
 -m, --mode | <s>  mode of target, a for animal and p for plant  
 a same as: -l 6 -b 6 -a 15 -e -12
