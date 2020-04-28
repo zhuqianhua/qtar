@@ -36,6 +36,7 @@ Options | Type| Description
 ## Output
 The output file contains 6 columns, the details as follows:
 Name | Description
+--- | ---
 miRNA | name of small rna  
 Target | name of target gene
 Position | the start position on the target gene
