@@ -21,7 +21,7 @@ Options | Type| Descriptions
 -t, --target | * str | target sequence in fasta format
 -o, --output | str | output, default ./qtar_output.xls
 -m, --mode | str | mode of target, a for animal and p for plant
-   | a | same as: -l 6 -b 6 -a 15 -e -12  
+\\   | a | same as: -l 6 -b 6 -a 15 -e -12  
    | p | same as: -S -l 7 -b 2 -a 15 -e -9
 -S, --strict | bool | only involve pairing of the miRNA seed
 -l, --length | int | length of anchor, default 6
