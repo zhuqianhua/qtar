@@ -15,7 +15,7 @@ and bubble size.
 	cd example   
 	sh run.sh   
 ## Parameters
-Options | Type| Descriptions
+Options | Type| Description
 --- | --- | ---
 -s, --smrna | * str | small rna sequence in fasta format
 -t, --target | * str | target sequence in fasta format
@@ -34,7 +34,14 @@ Options | Type| Descriptions
 
 *note * indicates required parameters*
 ## Output
-
+The output file contains 6 columns, the details as follows:
+Name | Description
+miRNA | name of small rna  
+Target | name of target gene
+Position | the start position on the target gene
+Seed type | the align type of miRNA seed region
+MFE | minimal free energy value
+Align score | alignment score
 
 ## Notes
 It relies on multithreaded execution and your system needs  
