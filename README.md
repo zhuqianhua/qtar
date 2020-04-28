@@ -14,15 +14,15 @@ and bubble size.
 	make   
 	cd example   
 	sh run.sh   
-## Options
+## Parameters
 Options | Type| Descriptions
 --- | --- | ---
 -s, --smrna | * str | small rna sequence in fasta format
 -t, --target | * str | target sequence in fasta format
 -o, --output | str | output, default ./qtar_output.xls
 -m, --mode | str | mode of target, a for animal and p for plant
-\\   | a | same as: -l 6 -b 6 -a 15 -e -12  
-   | p | same as: -S -l 7 -b 2 -a 15 -e -9
+-m | a | same as: -l 6 -b 6 -a 15 -e -12  
+-m | p | same as: -S -l 7 -b 2 -a 15 -e -9
 -S, --strict | bool | only involve pairing of the miRNA seed
 -l, --length | int | length of anchor, default 6
 -p, --process | int | number of threads, default 6
@@ -31,6 +31,7 @@ Options | Type| Descriptions
 -e, --mfe | float| cutoff of minimal free energy, default -8.0
 -q, --quiet | bool | print nothing except serious errors
 -h, --help | bool | print this information
+*note \\* indicates required parameters*
 ## Output
 
 
