@@ -1,12 +1,30 @@
 # qtar
-Quickly Target for smRNA
+**Quickly Target for smRNA**
 ## Introduction
-
+qtar is a software for small rna target prediction against to  
+UTR and/or coding sequence. It consists of two parts: anchor  
+sets and target. The first part is the acceleration step, which  
+reduce the prediction counts by only targeting those pairs  
+with common anchor between small rna and targets. The  
+second part is core step, which contains alignment by using  
+Smith-Waterman and filteration by MFE, alignment score  
+and bubble size.
 ## Getting started
-
+	git clone https://github.com/zhuqianhua/qtar.git   
+	make   
+	cd example   
+	sh run.sh   
 ## Options
-
+Options | Type | Descriptions
+--- | --- | ---
+-s, --smrna | *<s> | small rna sequence in fasta format
 ## Output
+
+
+## Notes
+It relies on multithreaded execution and your system needs  
+to support -lpthread. If you have questions about qtar, you  
+may send the questions to zhuqianhua@bgi.com.
 
 ## Reference
 1)	Nurul-Syakima Ab Mutalib, Siti Aishah Sulaiman, Rahman Jamal. COMPUTATIONAL TOOLS FOR MICRORNA TARGET PREDICTION. Computational Epigenetics and Diseases. 2019
