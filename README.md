@@ -31,7 +31,8 @@ Options | Type| Descriptions
 -e, --mfe | float| cutoff of minimal free energy, default -8.0
 -q, --quiet | bool | print nothing except serious errors
 -h, --help | bool | print this information
-*note \\* indicates required parameters*
+
+*note * indicates required parameters*
 ## Output
 
 
