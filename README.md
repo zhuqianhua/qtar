@@ -15,9 +15,22 @@ and bubble size.
 	cd example   
 	sh run.sh   
 ## Options
-Options | Type | Descriptions
---- | --- | ---
--s, --smrna | *<s> | small rna sequence in fasta format
+Options | Descriptions
+--- | ---
+-s, --smrna | *<s> small rna sequence in fasta format
+-t, --target | *<s>  target sequence in fasta format
+-o, --output | <s>  output, default ./qtar_output.xls
+-m, --mode | <s>  mode of target, a for animal and p for plant  
+a same as: -l 6 -b 6 -a 15 -e -12
+  | p same as: -S -l 7 -b 2 -a 15 -e -9
+-S, --strict | <b>  only involve pairing of the miRNA seed
+-l, --length | <i>  length of anchor, default 6
+-p, --process | <i>  number of threads, default 6
+-b, --bubble | <i>  length of bubbles, default 6
+-a, --aln | <f>  cutoff of align score, default 10.0
+-e, --mfe | <f>  cutoff of minimal free energy, default -8.0
+-q, --quiet | <b>  print nothing except serious errors
+-h, --help | <b>  print this information
 ## Output
 
 
